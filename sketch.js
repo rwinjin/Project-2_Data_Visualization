@@ -41,10 +41,12 @@ function preload() {
 }
 
 function setup() {
+  let HTMLCanvas = createCanvas(640, 480);
+  HTMLCanvas.parent("canvas-container"); 
+  
   tavernAmbience.setVolume(0.3);
   tavernAmbience.play();
   textFont("MedievalSharp");
-  createCanvas(640, 480);
   textSize(16);
   fill(255);
   background(20);
