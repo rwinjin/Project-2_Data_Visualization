@@ -27,7 +27,6 @@ function preload() {
   candleLight = loadImage("candlelighting.png");
 
   pageFlip = loadSound("pageflip_monster.mp3");
-  // p5js doesnt allow large audio downloads, replace the placeholder file with "The Hearth Inn" from https://tabletopaudio.com/
   tavernAmbience = loadSound("255_The_Hearth_Inn.mp3");
 
   sizeImages = {
