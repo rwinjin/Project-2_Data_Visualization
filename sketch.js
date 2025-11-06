@@ -87,15 +87,6 @@ function draw() {
   image(backgroundImg, 0, 0, 640, 480);
   image(book, 0, 0, 640, 480);
 
-  tint(255, 125);
-
-  image(lighting, 0, 0, 640, 480);
-
-  tint(255, random(180, 220));
-  image(candleLight, 0, 0, 640, 480);
-
-  tint(255, 255);
-
 
 
   if (helpPage == true) {
@@ -202,6 +193,16 @@ function draw() {
     textAlign(LEFT);
   textSize(16);
   text("Help(i) ", 10, 155);
+
+    tint(255, 125);
+
+  image(lighting, 0, 0, 640, 480);
+
+  tint(255, random(180, 220));
+  image(candleLight, 0, 0, 640, 480);
+
+  tint(255, 255);
+
 }
 
 function keyPressed() {
